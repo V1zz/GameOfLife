@@ -1,6 +1,6 @@
 namespace GameOfLife.Models.GameModels 
 {
-    public class Cell
+    public sealed class Cell
     {
         public int Row { get; set; }
         public int Column { get; set; } 
