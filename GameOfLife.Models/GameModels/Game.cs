@@ -11,7 +11,7 @@ namespace GameOfLife.Models.GameModels
 
         public Grid Initial { get; }
 
-        public static Game GameInstance => new(Grid.Default, Rules.Instance);
+        public static Game GameInstance => new(Grid.Instance, Rules.Instance);
 
 
 
